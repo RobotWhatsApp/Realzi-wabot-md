@@ -84,9 +84,9 @@ async function startzyy() {
                 }
 
                 if (anu.action == 'add') {
-                    zyy.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    zyy.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗\n┃┃┃┣─┃─┃─┃┃┃┃┃┣─\n╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝\n\n「𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐓𝐀𝐍𝐆」\n\n𝐍𝐚𝐦𝐞: @${num.split('@')[0]}\n𝐆𝐫𝐮𝐩: ${metadata.subject}\n\n𝐵𝑒𝑡𝑎ℎ 𝐵𝑒𝑡𝑎ℎ 𝑌𝑎𝑘 ~~`` })
                 } else if (anu.action == 'remove') {
-                    zyy.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    zyy.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `「𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐓𝐈𝐍𝐆𝐆𝐀𝐋」\n\n𝐼𝑛𝑎𝑙𝑖𝑙𝑎ℎ𝑖 𝑊𝑎 𝐼𝑛𝑎𝑖𝑙𝑎𝑖ℎ𝑖 𝑅𝑜𝑗𝑖'𝑢𝑛\n𝑇𝑒𝑙𝑎ℎ 𝑀𝑒𝑛𝑖𝑛𝑔𝑔𝑎𝑙 𝐷𝑢𝑛𝑖𝑎\n\n𝐍𝐚𝐦𝐚: @${num.split('@')[0]}\n𝐆𝐫𝐮𝐩: ${metadata.subject}\n\n𝑆𝑒𝑚𝑜𝑔𝑎 𝑇𝑒𝑛𝑎𝑛𝑔 𝐷𝑖 𝐴𝑙𝑎𝑚 𝑆𝑎𝑛𝑎` })
                 }
             }
         } catch (err) {
