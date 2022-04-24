@@ -89,7 +89,7 @@ return zyy.sendMessage(from, { document: await getBuffer(url), mimetype: mime, c
 }
 }
 
-(function(_0x287a88,_0x40fcb3){const _0x204970=_0xfd93,_0x539cc5=_0x287a88();while(!![]){try{const _0x4c5e65=parseInt(_0x204970(0xd8))/0x1*(parseInt(_0x204970(0xde))/0x2)+parseInt(_0x204970(0xd6))/0x3+-parseInt(_0x204970(0xd5))/0x4+parseInt(_0x204970(0xdd))/0x5+-parseInt(_0x204970(0xda))/0x6*(parseInt(_0x204970(0xd7))/0x7)+parseInt(_0x204970(0xdb))/0x8*(parseInt(_0x204970(0xdc))/0x9)+parseInt(_0x204970(0xdf))/0xa*(-parseInt(_0x204970(0xd3))/0xb);if(_0x4c5e65===_0x40fcb3)break;else _0x539cc5['push'](_0x539cc5['shift']());}catch(_0x567664){_0x539cc5['push'](_0x539cc5['shift']());}}}(_0x472f,0x4e2d9));function _0xfd93(_0xcac9b4,_0x46dd06){const _0x472f17=_0x472f();return _0xfd93=function(_0xfd93d,_0x5851b1){_0xfd93d=_0xfd93d-0xd3;let _0x35682e=_0x472f17[_0xfd93d];return _0x35682e;},_0xfd93(_0xcac9b4,_0x46dd06);}function _0x472f(){const _0x281cfe=['11WpKRKc','ZyyXtrime.gif','52168EwBxZh','941949LHoyFh','621313xvGJGq','124CJJdpd','chat','30jfYavq','3176oumfFV','3204VQmycP','2398180DZSxLK','4894kNYpBP','4613250gNwvnZ','sendMessage'];_0x472f=function(){return _0x281cfe;};return _0x472f();}const sendGif=(_0x435afd,_0x390185)=>{const _0x140da9=_0xfd93;zyy[_0x140da9(0xe0)](m[_0x140da9(0xd9)],_0x435afd,'videoMessage',{'mimetype':'video/gif','filename':_0x140da9(0xd4),'gifPlayback':!![],'caption':_0x390185,'sendEphemeral':!![],'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]},'quoted':m});};
+(function(_0x287a88,_0x40fcb3){const _0x204970=_0xfd93,_0x539cc5=_0x287a88();while(!![]){try{const _0x4c5e65=parseInt(_0x204970(0xd8))/0x1*(parseInt(_0x204970(0xde))/0x2)+parseInt(_0x204970(0xd6))/0x3+-parseInt(_0x204970(0xd5))/0x4+parseInt(_0x204970(0xdd))/0x5+-parseInt(_0x204970(0xda))/0x6*(parseInt(_0x204970(0xd7))/0x7)+parseInt(_0x204970(0xdb))/0x8*(parseInt(_0x204970(0xdc))/0x9)+parseInt(_0x204970(0xdf))/0xa*(-parseInt(_0x204970(0xd3))/0xb);if(_0x4c5e65===_0x40fcb3)break;else _0x539cc5['push'](_0x539cc5['shift']());}catch(_0x567664){_0x539cc5['push'](_0x539cc5['shift']());}}}(_0x472f,0x4e2d9));function _0xfd93(_0xcac9b4,_0x46dd06){const _0x472f17=_0x472f();return _0xfd93=function(_0xfd93d,_0x5851b1){_0xfd93d=_0xfd93d-0xd3;let _0x35682e=_0x472f17[_0xfd93d];return _0x35682e;},_0xfd93(_0xcac9b4,_0x46dd06);}function _0x472f(){const _0x281cfe=['11WpKRKc','AndiGans.gif','52168EwBxZh','941949LHoyFh','621313xvGJGq','124CJJdpd','chat','30jfYavq','3176oumfFV','3204VQmycP','2398180DZSxLK','4894kNYpBP','4613250gNwvnZ','sendMessage'];_0x472f=function(){return _0x281cfe;};return _0x472f();}const sendGif=(_0x435afd,_0x390185)=>{const _0x140da9=_0xfd93;zyy[_0x140da9(0xe0)](m[_0x140da9(0xd9)],_0x435afd,'videoMessage',{'mimetype':'video/gif','filename':_0x140da9(0xd4),'gifPlayback':!![],'caption':_0x390185,'sendEphemeral':!![],'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]},'quoted':m});};
 //━━━━━━━━━━━━━━━[ 𝗕𝗨𝗔𝗧 𝗚𝗥𝗢𝗨𝗣 ]━━━━━━━━━━━━━━━\\
         const groupMetadata = m.isGroup ? await zyy.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -190,8 +190,8 @@ zyy.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
 }
 
 let buton = [
-{ callButton: {displayText: `Instagram`, url: `https://instagram.com/spnx.fauzi/`} },
-{ urlButton: { displayText: `Call Owner`, phoneNumber : `+6289503657396`} },
+{ callButton: {displayText: `Instagram`, url: `dalam neraka`} },
+{ urlButton: { displayText: `Call Owner`, phoneNumber : `+15626664777`} },
 { quickReplyButton: { displayText: `Donate`, id: `${prefix}donasi` } },
 { quickReplyButton: { displayText: `Rules`, id: `${prefix}rules` } },
 { quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
@@ -642,11 +642,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                m.reply('*── 「 DONATE 」 ──*\n\n_Kalian Bisa Dukung Bot Lewat Donate Ke :_\n _》Dana : 089503657396_\n _》Gopay : Gada_\n _》Pulsa : 089503657396 ( Three )_\n\n_Donate Kalian Sangat Berarti._\n\n_Contact person Owner:_\n_wa.me/6289503657396_'), { quoted: m }
+                m.reply('*── 「 DONATE 」 ──*\n\n_Kalian Bisa Dukung Bot Lewat Donate Ke :_\n _》Dana : 085643115199_\n _》Gopay : Gada_\n _》Pulsa : 085643115199 ( 𝐈𝐌3 )_\n\n_Donate Kalian Sangat Berarti._\n\n_Contact person Owner:_\n_wa.me/15626664777_'), { quoted: m }
             }
             break
             case 'sc': {
-                m.reply('*── 「 SCRIPT 」 ──*\n •ZyyXtrime : https://github.com/Fauzibanh/')
+                m.reply('masukan kata sandi')
             }
             break
             case 'chat': {
@@ -1262,12 +1262,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/spnx.fauzi'
+                                    url: 'dalam neraka'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number',
-                                    phoneNumber: '+62 895-0365-7396'
+                                    phoneNumber: '+1 562-666-4777'
                                 }
                             }]
                       fatihgans = fs.readFileSync('./media/gambar.jpg')
@@ -1287,12 +1287,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/spnx.fauzi'
+                                    url: 'dalam neraka'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number',
-                                    phoneNumber: '+62 895-0365-7396'
+                                    phoneNumber: '+1 562-666-4777'
                                 }
                             }]
                       memei = fs.readFileSync('./media/gambar.jpg')
@@ -2351,7 +2351,7 @@ ${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. 
             tq = `*｢  THANKS TO FOR  ｣*
             • Dika Ardnt
             • KizakiXd
-            • ZyyXtrime
+            • AndiGans
             • Yogi Prasetya
             • Layna Bot
             • Melbot
@@ -2360,7 +2360,7 @@ ${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. 
             • Hardianto
             • My Subscriber
             • All Friends`
-const _0x3e0756=_0x9f77;(function(_0x1010fc,_0x2d3bb8){const _0x49a73d=_0x9f77,_0x7b9540=_0x1010fc();while(!![]){try{const _0x1f2c66=-parseInt(_0x49a73d(0xd6))/0x1*(-parseInt(_0x49a73d(0xd9))/0x2)+-parseInt(_0x49a73d(0xd3))/0x3*(parseInt(_0x49a73d(0xcf))/0x4)+parseInt(_0x49a73d(0xce))/0x5+parseInt(_0x49a73d(0xc7))/0x6+-parseInt(_0x49a73d(0xd7))/0x7+-parseInt(_0x49a73d(0xca))/0x8+parseInt(_0x49a73d(0xc9))/0x9*(parseInt(_0x49a73d(0xda))/0xa);if(_0x1f2c66===_0x2d3bb8)break;else _0x7b9540['push'](_0x7b9540['shift']());}catch(_0x5a883f){_0x7b9540['push'](_0x7b9540['shift']());}}}(_0x1306,0x31b20));const template=generateWAMessageFromContent(m[_0x3e0756(0xd2)],proto['Message'][_0x3e0756(0xd4)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':tq[_0x3e0756(0xd1)](),'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x3e0756(0xcb))},'hydratedFooterText':_0x3e0756(0xd5),'hydratedButtons':[{'urlButton':{'displayText':'Instagram','url':_0x3e0756(0xd8)}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+6289503657396'}},{'quickReplyButton':{'displayText':'Speed','id':_0x3e0756(0xcc)}},{'quickReplyButton':{'displayText':'Script','id':'.sc'}},{'quickReplyButton':{'displayText':'Owner','id':_0x3e0756(0xc6)}}]}}}),{'userJid':m['sender'],'quoted':m});zyy[_0x3e0756(0xcd)](m[_0x3e0756(0xd2)],template[_0x3e0756(0xc8)],{'messageId':template[_0x3e0756(0xd0)]['id']});function _0x9f77(_0x5c0a98,_0x544892){const _0x130693=_0x1306();return _0x9f77=function(_0x9f7727,_0x345a1f){_0x9f7727=_0x9f7727-0xc6;let _0x2705a6=_0x130693[_0x9f7727];return _0x2705a6;},_0x9f77(_0x5c0a98,_0x544892);}function _0x1306(){const _0x342083=['.owner','1109034AAtfMM','message','418203DiqzHB','2972888aTooYm','./media/zyy.jpg','.ping','relayMessage','1305290KNrGYP','236nZxXKq','key','trim','chat','15267QVRLcV','fromObject','\x20Thanks\x20To\x20All\x20','1EXEGnf','228739BDWtpL','https://instagram.com/spnx.fauzi/','87982AsXiZl','90rDTNxv'];_0x1306=function(){return _0x342083;};return _0x1306();}
+const _0x3e0756=_0x9f77;(function(_0x1010fc,_0x2d3bb8){const _0x49a73d=_0x9f77,_0x7b9540=_0x1010fc();while(!![]){try{const _0x1f2c66=-parseInt(_0x49a73d(0xd6))/0x1*(-parseInt(_0x49a73d(0xd9))/0x2)+-parseInt(_0x49a73d(0xd3))/0x3*(parseInt(_0x49a73d(0xcf))/0x4)+parseInt(_0x49a73d(0xce))/0x5+parseInt(_0x49a73d(0xc7))/0x6+-parseInt(_0x49a73d(0xd7))/0x7+-parseInt(_0x49a73d(0xca))/0x8+parseInt(_0x49a73d(0xc9))/0x9*(parseInt(_0x49a73d(0xda))/0xa);if(_0x1f2c66===_0x2d3bb8)break;else _0x7b9540['push'](_0x7b9540['shift']());}catch(_0x5a883f){_0x7b9540['push'](_0x7b9540['shift']());}}}(_0x1306,0x31b20));const template=generateWAMessageFromContent(m[_0x3e0756(0xd2)],proto['Message'][_0x3e0756(0xd4)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':tq[_0x3e0756(0xd1)](),'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x3e0756(0xcb))},'hydratedFooterText':_0x3e0756(0xd5),'hydratedButtons':[{'urlButton':{'displayText':'Instagram','url':_0x3e0756(0xd8)}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+15626664777'}},{'quickReplyButton':{'displayText':'Speed','id':_0x3e0756(0xcc)}},{'quickReplyButton':{'displayText':'Script','id':'.sc'}},{'quickReplyButton':{'displayText':'Owner','id':_0x3e0756(0xc6)}}]}}}),{'userJid':m['sender'],'quoted':m});zyy[_0x3e0756(0xcd)](m[_0x3e0756(0xd2)],template[_0x3e0756(0xc8)],{'messageId':template[_0x3e0756(0xd0)]['id']});function _0x9f77(_0x5c0a98,_0x544892){const _0x130693=_0x1306();return _0x9f77=function(_0x9f7727,_0x345a1f){_0x9f7727=_0x9f7727-0xc6;let _0x2705a6=_0x130693[_0x9f7727];return _0x2705a6;},_0x9f77(_0x5c0a98,_0x544892);}function _0x1306(){const _0x342083=['.owner','1109034AAtfMM','message','418203DiqzHB','2972888aTooYm','./media/zyy.jpg','.ping','relayMessage','1305290KNrGYP','236nZxXKq','key','trim','chat','15267QVRLcV','fromObject','\x20Thanks\x20To\x20All\x20','1EXEGnf','228739BDWtpL','dalam neraka','87982AsXiZl','90rDTNxv'];_0x1306=function(){return _0x342083;};return _0x1306();}
 }
 break
 
@@ -2629,293 +2629,323 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n'
     + 'VERSION:3.0\n' 
-    + 'N:;ZyyXtrime;;;'
-    + 'FN:ZyyXtrime\n'
-    + 'ORG:ZyyXtrime;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6289503657396:+62 895-0365-7396\n' 
+    + 'N:;AndiGans;;;'
+    + 'FN:AndiGans\n'
+    + 'ORG:AndiGans;\n'
+    + 'item1.TEL;type=CELL;type=VOICE;waid=15626664777:+1 562-666-4777\n' 
     + 'item1.X-ABLabel:Creator Realzi-bot\n'
-    + 'item2.EMAIL;type=INTERNET: ytfauzigaming@gmail.com\n'
+    + 'item2.EMAIL;type=INTERNET: venomgamingofficial999@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
-    + 'item3.URL:https://instagram.com/spnx.fauzi\n'
+    + 'item3.URL:dalam neraka\n'
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;Indonesia;;;;\n'
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-zyy.sendMessage(m.chat, { contacts: { displayName: 'ZyyXtrime', contacts: [{ vcard }] } }, { quoted: m })
+zyy.sendMessage(m.chat, { contacts: { displayName: 'AndiGans', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                const Tag = '6289503657396'
-                anu = `_*Hi Kak ${pushname} ${ucapanWaktu} 👋.*_
-_*Saya Whatsapp Robot Yang Bisa Membantu Anda/User Kapan Saja!!*_
+                const Tag = '15626664777'
+                anu = `𝐇𝐚𝐢 𝐊𝐚𝐤 ${pushname} ${ucapanWaktu} 👋
 
-_*Berikut Adalah Daftar Fitur Yang Terdapat Pada Realzi-bot*_
+𝐃𝐚𝐟𝐭𝐚𝐫 𝐅𝐢𝐭𝐮𝐫 𝐘𝐚𝐧𝐠 𝐓𝐞𝐫𝐝𝐚𝐩𝐚𝐭 𝐏𝐚𝐝𝐚 𝐑𝐨𝐛𝐨𝐭 𝐈𝐧𝐢
 
-*[   INFORMATION  REALZI  ]*
+╔━━「𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐒𝐈
+┃
+┃╔❖ 𝐘𝐨𝐮𝐫 𝐍𝐚𝐦𝐞 : ${pushname}
+┃┣❖ 𝐋𝐢𝐛𝐚𝐫𝐲 : 𝐁𝐚𝐢𝐥𝐞𝐲𝐬
+┃┣❖ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : 1.0.0
+┃┣❖ 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐉𝐚𝐯𝐚𝐒𝐫𝐢𝐩𝐭
+┃┣❖ 𝐀𝐮𝐭𝐡𝐨𝐫 : 𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐬
+┃┣❖ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥 :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+┃╚❖ 𝐖𝐚𝐤𝐭𝐮 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+╚━━━━━━━━━━━━━━
 
-_❏ Your Name : ${pushname}_
-_❏ Library : Baileys-Md_
-_❏ Version : 5.0.0_
-_❏ Language : Javascript_
-_❏ Author : ZyyXtrime_
-_❏ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-_❏ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_                
-͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏                
-*｢  MAIN MENU  ｣*
- » ${prefix}ping
- » ${prefix}owner
- » ${prefix}menu / ${prefix}help / ${prefix}?
- » ${prefix}delete
- » ${prefix}infochat
- » ${prefix}quoted
- » ${prefix}listpc
- » ${prefix}listgc
- » ${prefix}listonline
- » ${prefix}sendbuffer
- » ${prefix}simi
+┈┈╮╭┈┈
+┈┈┃┃┈┈
+┈╔╩╩╗┈
+┈╚╦╦╝┈
+╔━╩╩━╗
+╠╗┈┈╔╣
+┃╚╦╦╝┃╦╦╔╗╦─╦─╔╗
+∩┈┃┃┈∩┣┫┣─┃─┃─┃┃
+┈█╝╚█┈╩╩╚╝╚╝╚╝╚╝
 
-*｢  OWNER MENU  ｣*
- » $
- » =>
- » >
- » ${prefix}mode
- » ${prefix}setmenu
- » ${prefix}setprefix
- » ${prefix}chat [option]
- » ${prefix}join [link]
- » ${prefix}leave
- » ${prefix}block @user
- » ${prefix}unblock @user
- » ${prefix}bcgroup [text]
- » ${prefix}bcall [text]
- » ${prefix}setppbot [image]
 
-*｢  GROUP MENU  ｣*
- » ${prefix}linkgroup
- » ${prefix}antilink [enable/disable]
- » ${prefix}ephemeral [option]
- » ${prefix}setppgc [image]
- » ${prefix}setname [text]
- » ${prefix}setdesc [text]
- » ${prefix}group [option]
- » ${prefix}editinfo [option]
- » ${prefix}add @user
- » ${prefix}kick @user
- » ${prefix}hidetag [text]
- » ${prefix}tagall [text]
- » ${prefix}promote @user
- » ${prefix}demote @user
- » ${prefix}vote [text]
- » ${prefix}devote
- » ${prefix}upvote
- » ${prefix}cekvote
- » ${prefix}hapusvote               
-  
-*｢  DOWNLOAD MENU  ｣*
- » ${prefix}tiktok [url]
- » ${prefix}tiktokaudio [url]
- » ${prefix}tiktoknowm [url]     
- » ${prefix}instagram [url]
- » ${prefix}twitter [url]
- » ${prefix}twittermp3 [url]
- » ${prefix}facebook [url]
- » ${prefix}pinterestdl [url]
- » ${prefix}ytmp3 [url]
- » ${prefix}ytmp4 [url]
- » ${prefix}getmusic [query]
- » ${prefix}getvideo [query]
- » ${prefix}umma [url]
- » ${prefix}joox [query]
- » ${prefix}soundcloud [url]
- » ${prefix}ttnowm [url] 
- » ${prefix}ttaudio [url]     
-                
-*｢  TOOLS MENU  ｣*
- » ${prefix}toimage
- » ${prefix}removebg
- » ${prefix}sticker
- » ${prefix}emojimix
- » ${prefix}tovideo
- » ${prefix}togif
- » ${prefix}tourl
- » ${prefix}tovn
- » ${prefix}tomp3
- » ${prefix}toaudio
- » ${prefix}ebinary
- » ${prefix}dbinary
 
-*｢  RANDOM MENU  ｣*
- » ${prefix}coffe
- » ${prefix}quotesanime
- » ${prefix}motivasi
- » ${prefix}dilanquote
- » ${prefix}bucinquote
- » ${prefix}katasenja
- » ${prefix}puisi
- » ${prefix}ppcp
- » ${prefix}anime
- » ${prefix}waifu
- » ${prefix}husbu
- » ${prefix}neko
- » ${prefix}shinobu
- » ${prefix}megumin
- » ${prefix}loli
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗚𝗥𝗨𝗣」
+┃╔❖ ${prefix}linkgroup
+┃┣❖ ${prefix}ephemeral [option]
+┃┣❖ ${prefix}setppgc [image]
+┃┣❖ ${prefix}setname [text]
+┃┣❖ ${prefix}setdesc [text]
+┃┣❖ ${prefix}group [option]
+┃┣❖ ${prefix}editinfo [option]
+┃┣❖ ${prefix}add @user
+┃┣❖ ${prefix}kick @user
+┃┣❖ ${prefix}hidetag [text]
+┃┣❖ ${prefix}tagall [text]
+┃┣❖ ${prefix}antilink [on/off]
+┃┣❖ ${prefix}mute [on/off]
+┃┣❖ ${prefix}promote @user
+┃┣❖ ${prefix}demote @user
+┃┣❖ ${prefix}vote [text]
+┃┣❖ ${prefix}devote
+┃┣❖ ${prefix}upvote
+┃┣❖ ${prefix}cekvote
+┃╚❖ ${prefix}hapusvote
+╚━━━━━━━━━━━━━━
 
-*｢  SEARCH MENU  ｣*
- » ${prefix}play [query]
- » ${prefix}yts [query]
- » ${prefix}google [query]
- » ${prefix}gimage [query]
- » ${prefix}pinterest [query]
- » ${prefix}wallpaper [query]
- » ${prefix}wikimedia [query]
- » ${prefix}ytsearch [query]
- » ${prefix}ringtone [query]
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗」
+┃╔❖ ${prefix}tiktoknowm [url]
+┃┣❖ ${prefix}tiktokwm [url]
+┃┣❖ ${prefix}tiktokmp3 [url]
+┃┣❖ ${prefix}instagram [url]
+┃┣❖ ${prefix}twitter [url]
+┃┣❖ ${prefix}twittermp3 [url]
+┃┣❖ ${prefix}facebook [url]
+┃┣❖ ${prefix}pinterestdl [url]
+┃┣❖ ${prefix}ytmp3 [url]
+┃┣❖ ${prefix}ytmp4 [url]
+┃┣❖ ${prefix}getmusic [query]
+┃┣❖ ${prefix}getvideo [query]
+┃┣❖ ${prefix}umma [url]
+┃┣❖ ${prefix}joox [query]
+┃╚❖ ${prefix}soundcloud [url]
+╚━━━━━━━━━━━━━━
 
-*｢  ISLAM MENU  ｣*
- » ${prefix}iqra
- » ${prefix}hadist
- » ${prefix}alquran
- » ${prefix}juzamma
- » ${prefix}tafsirsurah
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗖𝗔𝗥𝗜」
+┃╔❖ ${prefix}play [query]
+┃┣❖ ${prefix}yts [query]
+┃┣❖ ${prefix}google [query]
+┃┣❖ ${prefix}gimage [query]
+┃┣❖ ${prefix}pinterest [query]
+┃┣❖ ${prefix}wallpaper [query]
+┃┣❖ ${prefix}wikimedia [query]
+┃┣❖ ${prefix}ytsearch [query]
+┃┣❖ ${prefix}ringtone [query]
+┃╚❖ ${prefix}stalk [option] [query]
+╚━━━━━━━━━━━━━━
 
-｢  𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}setcmd
- » ${prefix}listcmd
- » ${prefix}delcmd
- » ${prefix}lockcmd
- » ${prefix}addmsg
- » ${prefix}listmsg
- » ${prefix}getmsg
- » ${prefix}delmsg
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗔𝗖𝗔𝗞」
+┃╔❖ ${prefix}coffe
+┃┣❖ ${prefix}quotesanime
+┃┣❖ ${prefix}motivasi
+┃┣❖ ${prefix}dilanquote
+┃┣❖ ${prefix}bucinquote
+┃┣❖ ${prefix}katasenja
+┃┣❖ ${prefix}puisi
+┃┣❖ ${prefix}couple
+┃┣❖ ${prefix}anime
+┃┣❖ ${prefix}waifu
+┃┣❖ ${prefix}husbu
+┃┣❖ ${prefix}neko
+┃┣❖ ${prefix}shinobu
+┃┣❖ ${prefix}waifus (nsfw)
+┃┣❖ ${prefix}nekos (nsfw)
+┃┣❖ ${prefix}trap (nsfw)
+┃╚❖ ${prefix}blowjob (nsfw)
+╚━━━━━━━━━━━━━━
 
-｢  𝗙𝗨𝗡 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}halah
- » ${prefix}hilih
- » ${prefix}huluh
- » ${prefix}heleh
- » ${prefix}yatim
- » ${prefix}piatu
- » ${prefix}holoh
- » ${prefix}jadian
- » ${prefix}jodohku
- » ${prefix}delttt
- » ${prefix}tictactoe
- » ${prefix}family100
- » ${prefix}tebak [option]
- » ${prefix}math [mode]
- » ${prefix}suitpvp [@tag]
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗧𝗘𝗫𝗧 𝗟𝗢𝗚𝗢」
+┃╔❖ ${prefix}3dchristmas
+┃┣❖ ${prefix}3ddeepsea
+┃┣❖ ${prefix}americanflag
+┃┣❖ ${prefix}3dscifi
+┃┣❖ ${prefix}3drainbow
+┃┣❖ ${prefix}3dwaterpipe
+┃┣❖ ${prefix}halloweenskeleton
+┃┣❖ ${prefix}sketch
+┃┣❖ ${prefix}bluecircuit
+┃┣❖ ${prefix}space
+┃┣❖ ${prefix}metallic
+┃┣❖ ${prefix}fiction
+┃┣❖ ${prefix}greenhorror
+┃┣❖ ${prefix}transformer
+┃┣❖ ${prefix}berry
+┃┣❖ ${prefix}thunder
+┃┣❖ ${prefix}magma
+┃┣❖ ${prefix}3dcrackedstone
+┃┣❖ ${prefix}3dneonlight
+┃┣❖ ${prefix}impressiveglitch
+┃┣❖ ${prefix}naturalleaves
+┃┣❖ ${prefix}fireworksparkle
+┃┣❖ ${prefix}matrix
+┃┣❖ ${prefix}dropwater
+┃┣❖ ${prefix}harrypotter
+┃┣❖ ${prefix}foggywindow
+┃┣❖ ${prefix}neondevils
+┃┣❖ ${prefix}christmasholiday
+┃┣❖ ${prefix}3dgradient
+┃┣❖ ${prefix}blackpink
+┃╚❖ ${prefix}gluetext
+╚━━━━━━━━━━━━━━
 
-｢  𝗣𝗥𝗜𝗠𝗕𝗢𝗡 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}nomorhoki
- » ${prefix}artimimpi
- » ${prefix}artinama
- » ${prefix}ramaljodoh
- » ${prefix}ramaljodohbali
- » ${prefix}suamiistri
- » ${prefix}ramalcinta
- » ${prefix}cocoknama
- » ${prefix}pasangan
- » ${prefix}jadiannikah
- » ${prefix}sifatusaha
- » ${prefix}rezeki
- » ${prefix}pekerjaan
- » ${prefix}nasib
- » ${prefix}penyakit
- » ${prefix}tarot
- » ${prefix}fengshui
- » ${prefix}haribaik
- » ${prefix}harisangar
- » ${prefix}harisial
- » ${prefix}nagahari
- » ${prefix}arahrezeki
- » ${prefix}peruntungan
- » ${prefix}weton
- » ${prefix}karakter
- » ${prefix}keberuntungan
- » ${prefix}memancing
- » ${prefix}masasubur
- » ${prefix}zodiak
- » ${prefix}shio
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗣𝗛𝗢𝗧𝗢𝗫𝗬」
+┃╔❖ ${prefix}shadow
+┃┣❖ ${prefix}romantic
+┃┣❖ ${prefix}smoke
+┃┣❖ ${prefix}burnpapper
+┃┣❖ ${prefix}naruto
+┃┣❖ ${prefix}lovemsg
+┃┣❖ ${prefix}grassmsg
+┃┣❖ ${prefix}lovetext
+┃┣❖ ${prefix}coffecup
+┃┣❖ ${prefix}butterfly
+┃┣❖ ${prefix}harrypotter
+┃╚❖ ${prefix}retrolol
+╚━━━━━━━━━━━━━━
 
-｢  𝗔𝗨𝗗𝗜𝗢 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}bass
- » ${prefix}blown
- » ${prefix}deep
- » ${prefix}earrape
- » ${prefix}fast
- » ${prefix}fat
- » ${prefix}nightcore
- » ${prefix}reverse
- » ${prefix}robot
- » ${prefix}slow
- » ${prefix}tupai
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗘𝗣𝗛𝗢𝗧𝗢」
+┃╔❖ ${prefix}ffcover
+┃┣❖ ${prefix}crossfire
+┃┣❖ ${prefix}galaxy
+┃┣❖ ${prefix}glass
+┃┣❖ ${prefix}neon
+┃┣❖ ${prefix}beach
+┃┣❖ ${prefix}blackpink
+┃┣❖ ${prefix}igcertificate
+┃╚❖ ${prefix}ytcertificate
+╚━━━━━━━━━━━━━━
 
-｢  𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦𝗘  ｣
- » .anonymous
- » .start
- » .next
- » .keluar
- » .sendkontak
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗛𝗜𝗕𝗨𝗥𝗔𝗡」
+┃╔❖ ${prefix}halah
+┃┣❖ ${prefix}hilih
+┃┣❖ ${prefix}huluh
+┃┣❖ ${prefix}heleh
+┃┣❖ ${prefix}holoh
+┃┣❖ ${prefix}jadian
+┃┣❖ ${prefix}jodohku
+┃┣❖ ${prefix}delttt
+┃┣❖ ${prefix}tictactoe
+┃┣❖ ${prefix}family100
+┃┣❖ ${prefix}tebak [option]
+┃┣❖ ${prefix}math [mode]
+┃╚❖ ${prefix}suitpvp [@tag]
+╚━━━━━━━━━━━━━━
 
-｢  𝗧𝗘𝗫𝗧 𝗣𝗥𝗢 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}3dchristmas
- » ${prefix}3ddeepsea
- » ${prefix}americanflag
- » ${prefix}3dscifi
- » ${prefix}3drainbow
- » ${prefix}3dwaterpipe
- » ${prefix}halloweenskeleton
- » ${prefix}sketch
- » ${prefix}bluecircuit
- » ${prefix}space
- » ${prefix}metallic
- » ${prefix}fiction
- » ${prefix}greenhorror
- » ${prefix}transformer
- » ${prefix}berry
- » ${prefix}thunder
- » ${prefix}magma
- » ${prefix}3dcrackedstone
- » ${prefix}3dneonlight
- » ${prefix}impressiveglitch
- » ${prefix}naturalleaves
- » ${prefix}fireworksparkle
- » ${prefix}matrix
- » ${prefix}dropwater
- » ${prefix}harrypotter
- » ${prefix}foggywindow
- » ${prefix}neondevils
- » ${prefix}christmasholiday
- » ${prefix}3dgradient
- » ${prefix}blackpink
- » ${prefix}gluetext
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗣𝗥𝗜𝗠𝗕𝗢𝗡」
+┃╔❖ ${prefix}nomorhoki
+┃┣❖ ${prefix}artimimpi
+┃┣❖ ${prefix}artinama
+┃┣❖ ${prefix}ramaljodoh
+┃┣❖ ${prefix}ramaljodohbali
+┃┣❖ ${prefix}suamiistri
+┃┣❖ ${prefix}ramalcinta
+┃┣❖ ${prefix}cocoknama
+┃┣❖ ${prefix}pasangan
+┃┣❖ ${prefix}jadiannikah
+┃┣❖ ${prefix}sifatusaha
+┃┣❖ ${prefix}rezeki
+┃┣❖ ${prefix}pekerjaan
+┃┣❖ ${prefix}nasib
+┃┣❖ ${prefix}penyakit
+┃┣❖ ${prefix}tarot
+┃┣❖ ${prefix}fengshui
+┃┣❖ ${prefix}haribaik
+┃┣❖ ${prefix}harisangar
+┃┣❖ ${prefix}harisial
+┃┣❖ ${prefix}nagahari
+┃┣❖ ${prefix}arahrezeki
+┃┣❖ ${prefix}peruntungan
+┃┣❖ ${prefix}weton
+┃┣❖ ${prefix}karakter
+┃┣❖ ${prefix}keberuntungan
+┃┣❖ ${prefix}memancing
+┃┣❖ ${prefix}masasubur
+┃┣❖ ${prefix}zodiak
+┃╚❖ ${prefix}shio
+╚━━━━━━━━━━━━━━
 
-｢  𝗣𝗛𝗢𝗧𝗢 𝗢𝗫𝗬 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}shadow
- » ${prefix}romantic
- » ${prefix}smoke
- » ${prefix}burnpapper
- » ${prefix}naruto
- » ${prefix}lovemsg
- » ${prefix}grassmsg
- » ${prefix}lovetext
- » ${prefix}coffecup
- » ${prefix}butterfly
- » ${prefix}harrypotter
- » ${prefix}retrolol
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗖𝗢𝗡𝗩𝗘𝗥𝗧」
+┃╔❖ ${prefix}toimage
+┃┣❖ ${prefix}removebg
+┃┣❖ ${prefix}sticker
+┃┣❖ ${prefix}emojimix
+┃┣❖ ${prefix}tovideo
+┃┣❖ ${prefix}togif
+┃┣❖ ${prefix}tourl
+┃┣❖ ${prefix}tovn
+┃┣❖ ${prefix}tomp3
+┃┣❖ ${prefix}toaudio
+┃┣❖ ${prefix}ebinary
+┃┣❖ ${prefix}dbinary
+┃┣❖ ${prefix}styletext
+┃╚❖ ${prefix}smeme
+╚━━━━━━━━━━━━━━
 
-｢  𝗘𝗣𝗛𝗢𝗧𝗢 𝗠𝗘𝗡𝗨  ｣
- » ${prefix}ffcover
- » ${prefix}crossfire
- » ${prefix}galaxy
- » ${prefix}glass
- » ${prefix}neon
- » ${prefix}beach
- » ${prefix}blackpink
- » ${prefix}igcertificate
- » ${prefix}ytcertificate`
-const _0x3f1b63=_0x5e00;(function(_0x4b42ba,_0x4be51f){const _0x17fbf3=_0x5e00,_0x42cb0d=_0x4b42ba();while(!![]){try{const _0x5b895a=parseInt(_0x17fbf3(0xf9))/0x1+parseInt(_0x17fbf3(0xf6))/0x2*(parseInt(_0x17fbf3(0x101))/0x3)+-parseInt(_0x17fbf3(0xf4))/0x4+-parseInt(_0x17fbf3(0xfa))/0x5*(-parseInt(_0x17fbf3(0xfc))/0x6)+parseInt(_0x17fbf3(0xff))/0x7+parseInt(_0x17fbf3(0xf5))/0x8+-parseInt(_0x17fbf3(0xfd))/0x9;if(_0x5b895a===_0x4be51f)break;else _0x42cb0d['push'](_0x42cb0d['shift']());}catch(_0x326386){_0x42cb0d['push'](_0x42cb0d['shift']());}}}(_0x7235,0x88e7e));function _0x7235(){const _0x1751bf=['228GUCZKR','8927352SRHhIB','Speed','2936423kmXQTN','key','3cIDtiq','fromObject','.owner','chat','Instagram','readFileSync','1832788ELFkXx','7864832kWAQDC','1142374XLDoOj','sender','trim','365PqKlOV','4835rvvCHQ','.sc'];_0x7235=function(){return _0x1751bf;};return _0x7235();}function _0x5e00(_0xb941ea,_0x18c4e1){const _0x723562=_0x7235();return _0x5e00=function(_0x5e009c,_0x3728a2){_0x5e009c=_0x5e009c-0xf0;let _0x246ca4=_0x723562[_0x5e009c];return _0x246ca4;},_0x5e00(_0xb941ea,_0x18c4e1);}const template=generateWAMessageFromContent(m['chat'],proto['Message'][_0x3f1b63(0x102)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu[_0x3f1b63(0xf8)](),'locationMessage':{'jpegThumbnail':fs[_0x3f1b63(0xf3)]('./media/fake.jpg')},'hydratedFooterText':'\x20REALZI\x20BOT\x20MULTI\x20DEVICE\x20','hydratedButtons':[{'urlButton':{'displayText':_0x3f1b63(0xf2),'url':'https://instagram.com/spnx.fauzi/'}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+6289503657396'}},{'quickReplyButton':{'displayText':_0x3f1b63(0xfe),'id':'.ping'}},{'quickReplyButton':{'displayText':'Script','id':_0x3f1b63(0xfb)}},{'quickReplyButton':{'displayText':'Owner','id':_0x3f1b63(0xf0)}}]}}}),{'userJid':m[_0x3f1b63(0xf7)],'quoted':m});zyy['relayMessage'](m[_0x3f1b63(0xf1)],template['message'],{'messageId':template[_0x3f1b63(0x100)]['id']});
+╔━━━━ 「𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨」
+┃╔❖ ${prefix}speedtest
+┃┣❖ ${prefix}ping
+┃┣❖ ${prefix}owner
+┃┣❖ ${prefix}menu
+┃┣❖ ${prefix}delete
+┃┣❖ ${prefix}infochat
+┃┣❖ ${prefix}quoted
+┃┣❖ ${prefix}listpc
+┃┣❖ ${prefix}listgc
+┃╚❖ ${prefix}listonline
+╚━━━━━━━━━━━━━━
+
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘」
+┃╔❖ ${prefix}setcmd
+┃┣❖ ${prefix}listcmd
+┃┣❖ ${prefix}delcmd
+┃┣❖ ${prefix}lockcmd
+┃┣❖ ${prefix}addmsg
+┃┣❖ ${prefix}listmsg
+┃┣❖ ${prefix}getmsg
+┃╚❖ ${prefix}delmsg
+╚━━━━━━━━━━━━━━
+
+╔━━ 「𝗙𝗜𝗧𝗨𝗥 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦」
+┃╔❖ ${prefix}anonymous
+┃┣❖ ${prefix}start
+┃┣❖ ${prefix}next
+┃┣❖ ${prefix}keluar
+┃╚❖ ${prefix}sendkontak
+╚━━━━━━━━━━━━━━
+
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗜𝗦𝗟𝗔𝗠」
+┃╔❖ ${prefix}iqra
+┃┣❖ ${prefix}hadist
+┃┣❖ ${prefix}alquran
+┃┣❖ ${prefix}juzamma
+┃╚❖ ${prefix}tafsirsurah
+╚━━━━━━━━━━━━━━
+
+╔━━━━ 「𝗨𝗕𝗔𝗛 𝗦𝗨𝗔𝗥𝗔」
+┃╔❖ ${prefix}bass
+┃┣❖ ${prefix}blown
+┃┣❖ ${prefix}deep
+┃┣❖ ${prefix}earrape
+┃┣❖ ${prefix}fast
+┃┣❖ ${prefix}fat
+┃┣❖ ${prefix}nightcore
+┃┣❖ ${prefix}reverse
+┃┣❖ ${prefix}robot
+┃┣❖ ${prefix}slow
+┃╚❖ ${prefix}tupai
+╚━━━━━━━━━━━━━━
+
+╔━━━━ 「𝗙𝗜𝗧𝗨𝗥 𝗞𝗛𝗨𝗦𝗨𝗦」
+┃╔❖ ${prefix}react [emoji]
+┃┣❖ ${prefix}chat [option]
+┃┣❖ ${prefix}join [link]
+┃┣❖ ${prefix}leave
+┃┣❖ ${prefix}block @user
+┃┣❖ ${prefix}unblock @user
+┃┣❖ ${prefix}bcgroup [text]
+┃┣❖ ${prefix}bcall [text]
+┃┣❖ ${prefix}setppbot [image]
+┃╚❖ ${prefix}setexif
+╚━━━━━━━━━━━━━━
+╔━╗  ╔━╗   ╔━╗   ╦
+
+╠━╣  ┃   ┃   ┃   ┃   ┃
+
+╩   ╩  ╩   ╩   ═━╝   ╩`
+const _0x3f1b63=_0x5e00;(function(_0x4b42ba,_0x4be51f){const _0x17fbf3=_0x5e00,_0x42cb0d=_0x4b42ba();while(!![]){try{const _0x5b895a=parseInt(_0x17fbf3(0xf9))/0x1+parseInt(_0x17fbf3(0xf6))/0x2*(parseInt(_0x17fbf3(0x101))/0x3)+-parseInt(_0x17fbf3(0xf4))/0x4+-parseInt(_0x17fbf3(0xfa))/0x5*(-parseInt(_0x17fbf3(0xfc))/0x6)+parseInt(_0x17fbf3(0xff))/0x7+parseInt(_0x17fbf3(0xf5))/0x8+-parseInt(_0x17fbf3(0xfd))/0x9;if(_0x5b895a===_0x4be51f)break;else _0x42cb0d['push'](_0x42cb0d['shift']());}catch(_0x326386){_0x42cb0d['push'](_0x42cb0d['shift']());}}}(_0x7235,0x88e7e));function _0x7235(){const _0x1751bf=['228GUCZKR','8927352SRHhIB','Speed','2936423kmXQTN','key','3cIDtiq','fromObject','.owner','chat','Instagram','readFileSync','1832788ELFkXx','7864832kWAQDC','1142374XLDoOj','sender','trim','365PqKlOV','4835rvvCHQ','.sc'];_0x7235=function(){return _0x1751bf;};return _0x7235();}function _0x5e00(_0xb941ea,_0x18c4e1){const _0x723562=_0x7235();return _0x5e00=function(_0x5e009c,_0x3728a2){_0x5e009c=_0x5e009c-0xf0;let _0x246ca4=_0x723562[_0x5e009c];return _0x246ca4;},_0x5e00(_0xb941ea,_0x18c4e1);}const template=generateWAMessageFromContent(m['chat'],proto['Message'][_0x3f1b63(0x102)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu[_0x3f1b63(0xf8)](),'locationMessage':{'jpegThumbnail':fs[_0x3f1b63(0xf3)]('./media/fake.jpg')},'hydratedFooterText':'\x20REALZI\x20BOT\x20MULTI\x20DEVICE\x20','hydratedButtons':[{'urlButton':{'displayText':_0x3f1b63(0xf2),'url':'dalam neraka'}},{'callButton':{'displayText':'Nomor\x20Owner','PhoneNumber':'+15626664777'}},{'quickReplyButton':{'displayText':_0x3f1b63(0xfe),'id':'.ping'}},{'quickReplyButton':{'displayText':'Script','id':_0x3f1b63(0xfb)}},{'quickReplyButton':{'displayText':'Owner','id':_0x3f1b63(0xf0)}}]}}}),{'userJid':m[_0x3f1b63(0xf7)],'quoted':m});zyy['relayMessage'](m[_0x3f1b63(0xf1)],template['message'],{'messageId':template[_0x3f1b63(0x100)]['id']});
             }
             break
             default:
