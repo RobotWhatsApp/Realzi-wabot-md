@@ -504,7 +504,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Chat wa.me/14244533833')
+                m.reply('Chat wa.me/15626664777')
             }
             break
 case 'assalamualaikum': {
@@ -1057,7 +1057,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1097,7 +1097,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1571,7 +1571,7 @@ break
             }
             break
 	    case 'nomerhoki': case 'nomorhoki': {
-                if (!Number(text)) throw `Example : ${prefix + command} 14244533833`
+                if (!Number(text)) throw `Example : ${prefix + command} 15626664777`
                 let anu = await primbon.nomer_hoki(Number(text))
                 if (anu.status == false) return m.reply(anu.message)
                 hisoka.sendText(m.chat, `⭔ *Nomor HP :* ${anu.message.nomer_hp}\n⭔ *Angka Shuzi :* ${anu.message.angka_shuzi}\n⭔ *Energi Positif :*\n- Kekayaan : ${anu.message.energi_positif.kekayaan}\n- Kesehatan : ${anu.message.energi_positif.kesehatan}\n- Cinta : ${anu.message.energi_positif.cinta}\n- Kestabilan : ${anu.message.energi_positif.kestabilan}\n- Persentase : ${anu.message.energi_positif.persentase}\n⭔ *Energi Negatif :*\n- Perselisihan : ${anu.message.energi_negatif.perselisihan}\n- Kehilangan : ${anu.message.energi_negatif.kehilangan}\n- Malapetaka : ${anu.message.energi_negatif.malapetaka}\n- Kehancuran : ${anu.message.energi_negatif.kehancuran}\n- Persentase : ${anu.message.energi_negatif.persentase}`, m)
@@ -2704,7 +2704,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             }, {
                                 callButton: {
                                     displayText: '𝐂𝐚𝐥𝐥 𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐬',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2795,7 +2795,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             }, {
                                 callButton: {
                                     displayText: '𝐂𝐚𝐥𝐥 𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐬',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2862,7 +2862,7 @@ Donate? Atau TF Ke :
 
 *Note* : Bot On 24 Jam, Karena Run Di Rdp
 Mau Sewa Bot? : Chat Ownernya
-( *https://wa.me/14244533833* )
+( *https://wa.me/15626664777* )
 
 `
     let message = await prepareWAMessageMedia({ image: fs.readFileSync('./src/sewa.jpg') }, { upload: hisoka.waUploadToServer })
@@ -2880,7 +2880,7 @@ Mau Sewa Bot? : Chat Ownernya
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2936,7 +2936,7 @@ Kawan Kawan Bot Multi-Device
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+1 (424) 453 3833'
+                                    phoneNumber: '+1 (562) 666 4777'
                                 }
                             }, {
                                 quickReplyButton: {
